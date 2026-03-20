@@ -1,76 +1,62 @@
-This is LuaHBTeX, Version 1.14.0 (TeX Live 2022/dev/Debian)  (format=lualatex 2026.3.17)  17 MAR 2026 17:17
- restricted system commands enabled.
-**/home/patrick/Documents/resume/main.tex
-(/home/patrick/Documents/resume/main.tex
-LaTeX2e <2021-11-15> patch level 1
-[\directlua]:1: module 'luaotfload-main' not found:
-	no field package.preload['luaotfload-main']
-	[kpse lua searcher] file not found: 'luaotfload-main'
-Error in luaotfload: reverting to OT1 L3 programming layer <2022-01-21>
-Inserting `tracingstacklevels' at position 1 in `input_level_string'.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
-4.
-
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
-\c@part=\count183
-\c@section=\count184
-\c@subsection=\count185
-\c@subsubsection=\count186
-\c@paragraph=\count187
-\c@subparagraph=\count188
-\c@figure=\count189
-\c@table=\count190
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen137
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.3.20)  20 MAR 2026 16:47
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**/home/patrick/Documents/CV/main.tex
+(/home/patrick/Documents/CV/main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
-2.
-
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(/usr/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
 )
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count191
-\Gm@cntv=\count192
-\c@Gm@tempcnt=\count193
-\Gm@bindingoffset=\dimen138
-\Gm@wd@mp=\dimen139
-\Gm@odd@mp=\dimen140
-\Gm@even@mp=\dimen141
-\Gm@layoutwidth=\dimen142
-\Gm@layoutheight=\dimen143
-\Gm@layouthoffset=\dimen144
-\Gm@layoutvoffset=\dimen145
-\Gm@dimlist=\toks17
+\Gm@cnth=\count283
+\Gm@cntv=\count284
+\c@Gm@tempcnt=\count285
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks18
 )
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
-File: l3backend-luatex.def 2022-01-12 L3 backend support: PDF output (LuaTeX)
-\l__color_backend_stack_int=\count194
-\l__pdf_internal_box=\box50
-)
-(./main.aux)
-\openout1 = main.aux
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count286
+) (./main.aux)
+\openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
@@ -81,13 +67,6 @@ LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-8.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
@@ -95,9 +74,9 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
 LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: luatex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: luatex
+* driver: pdftex
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -134,26 +113,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 33.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux))
-
-Here is how much of LuaTeX's memory you used:
- 1383 strings out of 477805
- 100000,383344 words of node,token memory allocated
- 368 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 48 glue_spec, 1 write nodes
-   avail lists: 2:13,3:226,4:10,5:476,6:68,7:8222,8:1,9:264,10:9,11:678
- 22089 multiletter control sequences out of 65536+600000
- 34 fonts using 1418259 bytes
- 55i,5n,59p,278b,141s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvip
-s/lm/lm-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmri10.pfb>
-Output written on main.pdf (1 page, 121158 bytes).
-
-PDF statistics: 32 PDF objects out of 1000 (max. 8388607)
- 23 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 131072)
- 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 1270 strings out of 469515
+ 19149 string characters out of 5470807
+ 446756 words of memory out of 5000000
+ 29977 multiletter control sequences out of 15000+600000
+ 633366 words of font info for 48 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 57i,5n,65p,274b,135s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/patrick/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk
+> </home/patrick/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk>
+ </home/patrick/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> 
+</home/patrick/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> <
+/home/patrick/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </
+home/patrick/.texlive/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1728.600pk></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (1 page, 69592 bytes).
+PDF statistics:
+ 226 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
