@@ -1,0 +1,127 @@
+\documentclass[10pt, letterpaper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.5in]{geometry}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Reduce spacing
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Custom section command
+\newcommand{\ressection}[1]{%
+    \vspace{10pt}%
+    {\large\bfseries\MakeUppercase{#1}}%
+    \vspace{2pt}%
+    \hrule%
+    \vspace{6pt}%
+}
+
+% Custom entry command
+\newcommand{\resumeentry}[4]{%
+    \textbf{#1}\hfill #2\\%
+    \textit{#3}\hfill #4%
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\LARGE\bfseries Patrick Manning Kennedy}\\[4pt]
+    US Citizen \quad$\bullet$\quad 727-278-3108 \quad$\bullet$\quad
+    pmkennedy4@gmail.com \quad$\bullet$\quad
+    github.com/patrick4k
+\end{center}
+
+\ressection{Education}
+\resumeentry{Embry-Riddle Aeronautical University (ERAU)}{Daytona Beach, FL}{Major: Aerospace Engineering (Astronautics), Minor: Computer Science, GPA: 3.943}{Dec 2024}
+
+\ressection{Experience}
+
+\vspace{4pt}
+\resumeentry{ASUS Robotics \& AI Center}{}{Engineer}{Feb. 2024 -- Present}
+\vspace{-6pt}
+\begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\topsep}{0pt}
+    \item Architected a distributed, asynchronous messaging framework using Rust and C++ for dynamic autonomous systems.
+    \item Researched, designed and implemented an efficient VIO system for real-time localization and control.
+\end{itemize}
+
+
+\resumeentry{NASA funded Swarm Unmanned Aerial Vehicle using Emergence (SUAVE), EPPL}{}{Software/Tech Lead}{Jan. 2024 -- Dec. 2024}
+\vspace{-6pt}
+\begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\topsep}{0pt}
+    \item Utilized \$86K budget to design and implement a GPS-denied UAV swarm for exploration and mapping.
+    \item Research computer vision techniques including Visual-SLAM, HSV masking, and Collaborative SLAM.
+    \item Computed local odometry with V-SLAM to enable GPS-denied flight using ROS2 and MAVLink in C++.
+    \item Independently designed a robust drone controller interface in C++ with an emphasis on safety and portability.
+    \item Implemented and tuned 4 PID controllers for a constrained ``follow me'' UAV position control.
+    \item Developing a dual quaternion swarm controller that emulates dynamics and kinematics of a virtual structure to navigate a swarm of drones from one pose to another.
+\end{itemize}
+
+\vspace{4pt}
+\resumeentry{Guava Compiler}{}{Independent Project}{Aug. 2023 -- Dec. 2024}
+\vspace{-6pt}
+\begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\topsep}{0pt}
+    \item Developing a statically typed language in C++ intended to generate safe and modular code.
+    \item Designed a dynamic grammar focusing on readability while promoting modern design patterns and practices.
+    \item Implementing macros in native Guava syntax to modify the intermediate representation (IR) on compile time.
+    \item Exposing Guava compiler plugin points for custom runtime targets such as LLVM IR, transpiled GPGPU code, or interpretation, while maintaining interoperability between targets.
+\end{itemize}
+
+\vspace{4pt}
+\resumeentry{Ansys Government Initiatives}{Exton, PA}{STK Communications \& Radar Developer}{May. 2023 -- Aug. 2024}
+\vspace{-6pt}
+\begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\topsep}{0pt}
+    \item Designed and developed complex radar workflows in C++ including 3D antenna gain pattern graphics, and real-time SAR radar image computation and overlay.
+    \item Researched and interfaced with propagation models including GPU accelerated shooting and bouncing rays.
+    \item Utilized COM and ATL in C++ and C\# for interoperability between different programs and API generation.
+    \item Implemented gRPC to create a thread safe server client interface into STK, enabling a scenario dependent controller to be executed in parallel to a real-time simulation.
+\end{itemize}
+
+\vspace{4pt}
+\resumeentry{Ansys Government Initiatives}{Exton, PA}{STK Quality Assurance Intern}{Sept. 2022 -- Dec. 2022}
+\vspace{-6pt}
+\begin{itemize}
+    \setlength{\itemsep}{0pt}
+    \setlength{\parskip}{0pt}
+    \setlength{\topsep}{0pt}
+    \item Conducted thorough vulnerability analysis of the 10-dimensional MODTRAN-derived model in Python.
+    \item Developed regression test in Perl flagging interpolation inaccuracies within the MODTRAN-derived model.
+    \item Evaluated EOIR Sensor API feature to identify release critical bugs or unexpected behaviors.
+    \item Developed regression test in Perl ensuring functionality is retained for future releases across all edge cases.
+\end{itemize}
+
+% \vspace{4pt}
+% \resumeentry{Phantom: Solid Motor Rocket, ERPL}{}{Project Lead}{May 2021 -- Aug. 2022}\\
+% \textit{Propulsion Sub Team Lead}\hfill Sept. 2020 -- May 2021
+% \vspace{-6pt}
+% \begin{itemize}
+%     \setlength{\itemsep}{0pt}
+%     \setlength{\parskip}{0pt}
+%     \setlength{\topsep}{0pt}
+%     \item Improved upon the manufacturing process of complex solid rocket motor geometries.
+%     \item Led team of six to build an internal solid rocket motor ballistics simulation in MATLAB and Java using an object-oriented design, resulting in thrust data within 9\% of market simulations.
+% \end{itemize}
+
+\ressection{Publications}
+D. Golan, \textbf{P. Kennedy}, B. Gonzalez, et al., ``Swarm UAVs for area mapping in GPS-denied locations'', \textit{SPIE Defense and Commercial Sensing Conference Proceedings}, Paper No. 13055-28, June 2024.
+
+\ressection{Relevant Skills}
+\textbf{Languages:} Bash, C\#, C++, Java, JavaScript, Kotlin, MATLAB, Perl, Python, Rust\\[2pt]
+\textbf{Programming:} ANTLR4, CMAKE, COM, Gazebo, Git, gRPC, Linux, .NET, OpenCV, Perforce, Regex, ROS2
+
+\end{document}
